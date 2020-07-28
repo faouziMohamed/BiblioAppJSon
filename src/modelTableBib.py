@@ -5,7 +5,7 @@ from PyQt5.QtCore import (QModelIndex, Qt, QAbstractTableModel,
 from collections import namedtuple
 
 trs = QTranslator.tr
-fields = ("title", "author", "editor", "kind", "year", "resume", "price")
+fields = ("title", "author", "editor", "genre", "year", "summary", "price")
 Book = namedtuple("Book", fields)
 
 
@@ -13,7 +13,7 @@ class ModelTableBib(QAbstractTableModel):
     def __init__(self, books: list):
         super(ModelTableBib, self).__init__()
         self.columnsTitles = (self.tr("Title"), self.tr("Author"),
-                              self.tr("Editor"), self.tr("Kind"))
+                              self.tr("Editor"), self.tr("Genre"))
         self.books = books
 
     def headerData(self, section, orientation, role):

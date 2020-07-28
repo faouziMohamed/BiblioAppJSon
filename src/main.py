@@ -7,7 +7,7 @@ from bibEditor import BibEditor
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     enNativeLang = len(sys.argv) == 1
-
+    LANG_PATH = "../assets/lang/"
     if enNativeLang:
         local = QLocale()
     else:
@@ -19,9 +19,9 @@ if __name__ == "__main__":
         translators.append(translator)
 
         if enNativeLang:
-            translator.load(local, prefixQm)
+            translator.load(local, LANG_PATH+prefixQm)
         else:
-            translator.load(prefixQm + langCountry)
+            translator.load(LANG_PATH+prefixQm + langCountry)
         app.installTranslator(translator)
 
     bib = BibEditor()

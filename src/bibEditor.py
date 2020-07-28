@@ -1,7 +1,7 @@
 from mainwindow import Ui_MainWindow
 from modelTableBib import Book, ModelTableBib
 from PyQt5.QtCore import (pyqtSlot as Slot, QDate, QItemSelection,
-                          QItemSelectionModel, QTranslator)
+                          QItemSelectionModel)
 from PyQt5.QtWidgets import (QFileDialog, QMainWindow, QMessageBox)
 
 

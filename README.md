@@ -30,4 +30,4 @@ Clone this repository `https://github.com/faouziMohamed/BiblioApp.git`  and run 
 | ![BiblioApp on preview](assets/snapshots/bibapp.png) |
 --------------------------------------------------------------------------------
 ### Alternative
-There is a version using database (SQLite) insteade of JSon file here [BiblioApp](https://github.com/faouziMohamed/BiblioAppBd)
+There is a version using database (SQLite) insteade of JSon file here [BiblioAppBD](https://github.com/faouziMohamed/BiblioAppBd)

@@ -28,6 +28,6 @@ Clone this repository `https://github.com/faouziMohamed/BiblioApp.git`  and run 
 |                      BiblioApp                       |
 | :--------------------------------------------------: |
 | ![BiblioApp on preview](assets/snapshots/bibapp.png) |
-
+--------------------------------------------------------------------------------
 ### Alternative
 There is a version using database (SQLite) insteade of JSon file here [BiblioApp](https://github.com/faouziMohamed/BiblioAppBd)
